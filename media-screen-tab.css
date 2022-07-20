@@ -70,7 +70,7 @@ thish is header section - end
 thish is header section - end
 -------------------------- */
 
-#second-container{
+#third-container{
   display: grid;
   justify-content: center;
   align-items: center;
