@@ -62,6 +62,7 @@ thish is header section - start
     width: 30vw;
     height: 27.5vh;
   }
+
     /* -----------------------
 thish is header section - end
 -------------------------- */
@@ -69,25 +70,86 @@ thish is header section - end
   /* -----------------------
 thish is header section - end
 -------------------------- */
-
+main{
+  padding-top: 10vh;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  justify-content: center;
+  align-items: center;
+}
+.seceond-section{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
 #third-container{
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-gap: 2.5px;
-  height: 23vh;
-  width: 25vw;
+  height: 25vh;
+  width: 26vw;
   background-color: black;
   border-radius: 15px;
 }
 #sceond-button{
   width: 187px;
-  height: 56px;
+  height: 50px;
   border-radius: 50px;
   background-color: #DD0000;
   border: 5px solid #DD0000;
   font-size: 1.3em;
   font-weight: bolder;
   color: whitesmoke;
+}
+#forth-container{
+  padding-left: 2.5vw;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding-left: 2.5vw;
+  height: 100vh;
+  width: 50vw;
+  padding-bottom: 5vh;
+}
+#first-blog{
+  height: 25vh;
+  width: 25vw;
+}
+#first-blog img{
+  height: 10vh;
+  width: 22.5vw;
+}
+#first-blog article p{
+  text-align: center;
+ }
+#first-blog article span{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+#first-blog article #icon-img{
+  padding-top: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+#third-span{
+display: none;
+}
+#third-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 187px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #DD0000;
+  border: 5px solid #DD0000;
+  font-size: 1.3em;
+  font-weight: bolder;
+  color: whitesmoke;
+  margin: auto;
 }
 }

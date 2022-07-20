@@ -87,16 +87,21 @@ thish is header section - start
   /* -----------------------
 thish is main section - start
 -------------------------- */
-
+.seceond-section{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
 #third-container{
   display: grid;
   justify-content: center;
   align-items: center;
   grid-gap: 10px;
-  height: 27vh;
-  width: 49vw;
+  height: 35vh;
+  width: 60vw;
   background-color: black;
   border-radius: 15px;
+  margin: auto;
 }
 #sceond-button{
   width: 187px;
@@ -108,5 +113,35 @@ thish is main section - start
   font-weight: bolder;
   color: whitesmoke;
 }
-
+#forth-container{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  padding-top: 5vh;
+}
+#first-blog{
+  height: 100%;
+  width: 100%;
+}
+#first-blog img{
+  height: 15vh;
+  width: 50vw;
+}
+#first-blog article p{
+  text-align: center;
+ }
+ #first-blog article span{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+}
+#first-blog article #icon-img{
+  padding-top: 10px;
+  height: 20px;
+  width: 20px;
+}
+#third-button{
+  display: none;
+  }
 }
