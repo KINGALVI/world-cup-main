@@ -24,7 +24,7 @@ header {
  justify-content: space-between;
   align-items: center;
   width: 135vh;
-  height: 70vh;
+  height: 80vh;
   background-color: black;
   padding-top:50px;
   padding-bottom: 100px;
@@ -41,13 +41,14 @@ header {
 
 #first-container article p {
   color: whitesmoke;
-  padding-bottom: 5vh;
+  padding-bottom: 5vh;;
 }
 
 #first-container article h1 {
   color: whitesmoke;
   font-weight: bolder;
-  font-size: 3em;
+  font-size: 45px;
+  padding-bottom: 3vh;
 }
 #first-container article button{
   width: 187px;
@@ -69,5 +70,5 @@ color: whitesmoke;
 #secoend-container img {
   padding-top: 20vh;
   width: 25vw;
-  height:82vh;
+  height:92vh;
 }

@@ -1,0 +1,65 @@
+@media (max-width:1024px) {
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Splash&display=swap');
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* -----------------------
+thish is header section - start
+-------------------------- */
+  .first-section {
+    display:flex;
+    justify-content: space-between;
+    width: 50vh;
+    height: 30vh;
+    padding-top: 0px;
+    background-color: black;
+    padding-left: 100px;
+    padding-right: 130px;
+    border-radius: 50px;
+  }
+  #first-container {
+    height: 10vh;
+    width: 50vw;
+    padding-right: 1vw;
+  }
+  #first-container article{
+    display: grid;
+    grid-gap: 1px;
+    padding-right: 10px;
+  }
+  #first-container article h1 {
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+  }
+  #first-container article p {
+    color: whitesmoke;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-bottom: 20px;
+  }
+  #first-container article button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #DD0000;
+    border: 5px solid #DD0000;
+    font-size: 17px;
+    font-weight: 900;
+    color: whitesmoke;
+  }
+  #secoend-container img {
+    padding-top: 20vh;
+    width: 30vw;
+    height: 27.5vh;
+  }
+}

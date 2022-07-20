@@ -1,0 +1,83 @@
+@media (max-width:500px) {
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Splash&display=swap');
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* -----------------------
+thish is header section - start
+-------------------------- */
+  .first-section {
+    display:grid;
+    justify-content:center;
+    align-items: center;
+    width: 15vh;
+    height: 62.7vh;
+    padding-top: 0px;
+    background-color: rgb(9, 9, 9);
+    padding-left: 115px;
+    padding-right: 115px;
+    border-radius: 60px;
+  }
+  #first-container {
+    height: 10vh;
+    width: 50vw;
+    padding-right: 1vw;
+  }
+  #first-container article{
+    display: grid;
+    grid-gap: 2px;
+    padding-right: 10px;
+    padding-top: 20px;
+  }
+  #first-container article h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+  }
+  #first-container article p {
+    text-align: center;
+    color: whitesmoke;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-left: 10px;
+  }
+  #first-container article #button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #first-container article button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #DD0000;
+    border: 5px solid #DD0000;
+    font-size: 17px;
+    font-weight: 900;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#secoend-container{
+  padding-top: 124px;
+  display: flex;
+  justify-content: center;
+}
+  #secoend-container img {
+    padding-top: 20vh;
+    width: 50vw;
+    height: 30vh;
+  }
+}
