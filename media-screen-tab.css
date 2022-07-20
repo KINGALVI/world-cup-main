@@ -47,7 +47,7 @@ thish is header section - start
     overflow: hidden;
     padding-bottom: 20px;
   }
-  #first-container article button{
+  #first-button{
     width: 150px;
     height: 50px;
     border-radius: 50px;
@@ -62,4 +62,32 @@ thish is header section - start
     width: 30vw;
     height: 27.5vh;
   }
+    /* -----------------------
+thish is header section - end
+-------------------------- */
+
+  /* -----------------------
+thish is header section - end
+-------------------------- */
+
+#second-container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 2.5px;
+  height: 23vh;
+  width: 25vw;
+  background-color: black;
+  border-radius: 15px;
+}
+#sceond-button{
+  width: 187px;
+  height: 56px;
+  border-radius: 50px;
+  background-color: #DD0000;
+  border: 5px solid #DD0000;
+  font-size: 1.3em;
+  font-weight: bolder;
+  color: whitesmoke;
+}
 }

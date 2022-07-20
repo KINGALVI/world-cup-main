@@ -50,8 +50,8 @@ header {
   font-size: 45px;
   padding-bottom: 3vh;
 }
-#first-container article button{
-  width: 187px;
+#first-button{
+width: 187px;
 height: 56px;
 border-radius: 50px;
 background-color: #DD0000;
@@ -60,7 +60,7 @@ font-size: 1.3em;
 font-weight: bolder;
 color: whitesmoke;
 }
-#first-container article button:hover{
+#first-button:hover{
   cursor: pointer;
   background-image: linear-gradient(#dd6300 , #DD0000);
   color: black;
@@ -71,4 +71,37 @@ color: whitesmoke;
   padding-top: 20vh;
   width: 25vw;
   height:92vh;
+}
+/* -----------------------
+thish is header section - end
+-------------------------- */
+
+/* -----------------------
+thish is main section - start
+-------------------------- */
+
+#second-container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px;
+  height: 50vh;
+  width: 15vw;
+  background-color: black;
+  border-radius: 15px;
+}
+#sceond-button{
+  width: 187px;
+  height: 56px;
+  border-radius: 50px;
+  background-color: #DD0000;
+  border: 5px solid #DD0000;
+  font-size: 1.3em;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+#sceond-button:hover{
+  cursor: pointer;
+  background-image: linear-gradient(#dd6300 , #DD0000);
+  color: black;
 }
