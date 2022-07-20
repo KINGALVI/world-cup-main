@@ -80,7 +80,7 @@ thish is header section - end
 thish is main section - start
 -------------------------- */
 
-#second-container{
+#third-section{
   display: grid;
   justify-content: center;
   align-items: center;
