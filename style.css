@@ -151,3 +151,41 @@ main{
 #third-button{
 display: none;
 }
+
+/* -----------------------
+thish is main section - end
+-------------------------- */
+
+/* -----------------------
+thish is footer section - start
+-------------------------- */
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  width: 100%;
+  background-color: #161616;
+}
+.third-section{
+  width: 70%;
+}
+
+.third-section p{
+ display: flex;
+ color: whitesmoke;
+ justify-content: center;
+ align-items: center;
+ padding-bottom: 20px;
+}
+#fifth-container{
+display: flex;
+justify-content: center;
+}
+#fifth-container a{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+ text-decoration: none;
+ color: whitesmoke;
+}

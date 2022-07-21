@@ -13,6 +13,15 @@
   /* -----------------------
 thish is header section - start
 -------------------------- */
+
+main{
+  padding-top: 10vh;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 195vh;
+}
   .first-section {
     display:grid;
     justify-content:center;
@@ -144,4 +153,46 @@ thish is main section - start
 #third-button{
   display: none;
   }
+
+  /* -----------------------
+thish is main section - end
+-------------------------- */
+
+/* -----------------------
+thish is footer section - start
+-------------------------- */
+footer{
+  display: grid;
+  width: 100%;
+  height: 51vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #161616;
+
+}
+.third-section{
+  width: 90%;
+}
+c
+.third-section p{
+ display: flex;
+ color: whitesmoke;
+ justify-content: center;
+ align-items: center;
+ padding-bottom: 20px;
+}
+#fifth-container{
+display: grid;
+justify-content: center;
+align-items:center ;
+
+}
+#fifth-container a{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+ text-decoration: none;
+ color: whitesmoke;
+ text-align: center;
+}
 }

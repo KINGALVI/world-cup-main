@@ -152,4 +152,45 @@ display: none;
   color: whitesmoke;
   margin: auto;
 }
+
+/* -----------------------
+thish is main section - end
+-------------------------- */
+
+/* -----------------------
+thish is footer section - start
+-------------------------- */
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+  background-color: #161616;
+}
+.third-section{
+  width: 90%;
+}
+
+.third-section p{
+ display: flex;
+ color: whitesmoke;
+ justify-content: center;
+ align-items: center;
+ padding-bottom: 20px;
+}
+#fifth-container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+#fifth-container a{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+ text-decoration: none;
+ color: whitesmoke;
+}
 }
